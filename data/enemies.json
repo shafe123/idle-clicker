@@ -1,0 +1,9 @@
+[
+    {
+        "name": "tweaker",
+        "maxHealth": 10,
+        "currentHealth": 10,
+        "weaponId": "shiv",
+        "armorId": "none"
+    }
+]

@@ -1,0 +1,10 @@
+[
+    {
+        "id": "none",
+        "resistances": {
+            "pierce": 0,
+            "slash": 0,
+            "blunt": 0
+        }
+    }
+]

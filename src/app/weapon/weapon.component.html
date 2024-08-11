@@ -1,0 +1,18 @@
+<div class="container">
+    <img [src]="weapon.imageUrl + '.webp'" [alt]="weapon.id">
+    
+    <div class="grid-container">
+        <div class="grid-item label">Name:</div>
+        <div class="grid-item">{{ weapon.id }}</div>
+        <div class="grid-item label">Chance to Hit:</div>
+        <div class="grid-item">{{ weapon.chanceToHit.toFixed(6) }}</div>
+        <div class="grid-item label">Attacks Per Second:</div>
+        <div class="grid-item">{{ weapon.attacksPerSecond.toFixed(3) }}</div>
+        <div class="grid-item label">Pierce:</div>
+        <div class="grid-item">{{ weapon.damages['pierce'] }}</div>
+        <div class="grid-item label">Slash:</div>
+        <div class="grid-item">{{ weapon.damages['slash'] }}</div>
+        <div class="grid-item label">Blunt:</div>
+        <div class="grid-item">{{ weapon.damages['blunt'] }}</div>
+    </div>
+</div>

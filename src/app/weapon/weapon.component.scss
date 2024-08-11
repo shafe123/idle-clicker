@@ -1,0 +1,28 @@
+@import '../../styles.scss';
+
+.container {
+    text-align: center;
+    margin: 0 auto;
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 2fr; /* Labels take 1 part, values take 2 parts */
+    gap: 10px;
+    margin-top: 20px;
+    align-items: center;
+}
+.grid-item {
+    padding: 10px;
+    background-color: $background-subtle-color;
+    border-radius: 5px;
+    text-align: left; /* Ensure text is left-aligned */
+}
+.label {
+    font-weight: bold;
+    text-align: right; /* Align labels to the right */
+}
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}

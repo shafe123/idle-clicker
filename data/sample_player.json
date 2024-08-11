@@ -1,0 +1,7 @@
+{
+    "name": "honeybadger",
+    "maxHealth": 100,
+    "currentHealth": 100,
+    "weapon": "blades",
+    "amror": "none"
+}
